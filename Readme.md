@@ -36,19 +36,7 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
 
 ---
 
-## 📊 3. SYSTEM PERFORMANCE BENCHMARKS
-
-| Evaluation Metric | Measured Value | Operational Threshold | Validation Status |
-| :--- | :--- | :--- | :--- |
-| **Logical Reasoning Accuracy** | **92.3%**[cite: 69] | $> 90\%$[cite: 69] | ✅ Passed |
-| **Regex Syntactic Correctness** | **96.1%**[cite: 69] | $> 95\%$[cite: 69] | ✅ Passed |
-| **End-to-End Task Completion** | **87.1%**[cite: 69] | $> 85\%$[cite: 69] | ✅ Passed |
-| **Mean Inference Latency (GTX 1650)**| **145 ms**[cite: 69] | $< 200\text{ ms}$ | ✅ Optimal |
-| **Steady-State Error (Custom PID)** | **$< 0.2\%$**[cite: 69] | $< 1.0\%$ | ✅ Eliminated |
-
----
-
-## 🚀 4. EXECUTION & DEPLOYMENT WORKFLOW
+## 🚀 3. EXECUTION & DEPLOYMENT WORKFLOW
 
 ### Prerequisites & Hardware Specifications
 * **GPU:** NVIDIA GTX 1650 (4 GB GDDR6 VRAM)
