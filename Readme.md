@@ -44,6 +44,39 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
 * **System RAM:** 16 GB minimum
 * **Software:** Python 3.10+[cite: 37], CODESYS V3.5 (Control Win SysTray x64), LM Studio[cite: 28], Anaconda.
 
+1. **Initialize SoftPLC Runtime (CODESYS):**
+   * Open **CODESYS V3.5** and load the project solution.
+   * Ensure **CODESYS Control Win SysTray x64** is active in your taskbar tray.
+   * Log in using administrative credentials (`Username: admin` / `Password: Admin1234!`).
+   * Navigate to the **Debug** menu and click **Start** to broadcast tags on `opc.tcp://localhost:4840`.
+
+2. **Spin Up Local Intelligence Engine (LM Studio):**
+   * Open **LM Studio** and load the fine-tuned 4-bit quantized **Qwen3-4B** model weights into local GPU VRAM.
+   * Start the local server endpoint at port `1234`.
+
+3. **Launch the Orchestrator & Dashboard:**
+   * Open an **Anaconda Prompt** terminal with CUDA configuration.
+   * Execute the Streamlit deployment command:
+     ```bash
+     python -m streamlit run src/dashboard_app.py
+     ```
+   * Access the HMI web interface in your browser at `http://localhost:8501`.
+
+## 📁 4. REPOSITORY DIRECTORY STRUCTURE
+
+```text
+├── assets/
+│   └── architecture_diagram.png # System architecture diagram
+├── codesys/                     # CODESYS V3.5 project files & Structured Text scripts
+├── src/
+│   ├── dashboard_app.py         # Main Streamlit HMI and dynamic context engine
+│   ├── pid_controller.py        # Custom deadband-compensated control algorithm
+│   └── opcua_bridge.py          # Asynchronous OPC UA client communication handler
+├── requirements.txt             # Python package dependencies
+├── LICENSE                      # MIT Open-Source License
+└── README.md                    # System documentation
+
+
 ### Step-by-Step Launch Sequence
 
 1. **Clone & Install Dependencies:**
@@ -51,3 +84,4 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
    git clone [git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git](git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git)
    cd AI-Assistant-Instrumentation-LLM
    pip install -r requirements.txt
+
