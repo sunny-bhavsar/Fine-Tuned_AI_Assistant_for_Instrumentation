@@ -3,11 +3,7 @@
 # 🧠⚙️ AI ASSISTANT FOR INSTRUMENTATION & CONTROL
 ### Enterprise-Grade Closed-Loop Industrial Automation & Supervisory Framework
 
-![Architecture: Hybrid PID-LLM](https://img.shields.io/badge/Architecture-Hybrid%20PID%2ILLM-blue?style=flat-square)
-[![Model: Qwen3-4B Quantized](https://img.shields.io/badge/Model-Qwen3--4B%20(4--bit)-orange?style=flat-square)]
-[![PLC Protocol: OPC UA](https://img.shields.io/badge/Protocol-OPC%20UA%20(@100ms)-green?style=flat-square)]
-[![Runtime: CODESYS SoftPLC](https://img.shields.io/badge/Runtime-CODESYS%20V3.5-purple?style=flat-square)]
-[![HMI: Streamlit](https://img.shields.io/badge/HMI-Streamlit%20Dashboard-red?style=flat-square)]
+**Architecture:** Hybrid PID-LLM &nbsp;|&nbsp; **Model:** Qwen3-4B (4-bit Quantized) &nbsp;|&nbsp; **Protocol:** OPC UA (@100ms) &nbsp;|&nbsp; **Runtime:** CODESYS V3.5 &nbsp;|&nbsp; **HMI:** Streamlit Dashboard
 
 </div>
 
