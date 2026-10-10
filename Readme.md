@@ -10,7 +10,7 @@
 ![HMI](https://img.shields.io/badge/HMI-Streamlit-red?style=flat-square)
 
 </div>
----
+
 
 ## 📋 1. SYSTEM BLUEPRINT & ARCHITECTURE
 
