@@ -19,8 +19,9 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
 ### System Architecture Diagram
 > *Place your architecture diagram image inside the `assets/` folder as `architecture_diagram.png`.*
 
-![System Architecture Diagram](assets/architecture_diagram.png)
-
+<p align="center">
+  <img src="assets/architecture_diagram.png" width="850" alt="System Architecture Diagram">
+</p>
 ---
 
 ## ⚙️ 2. ENGINEERING MODULES & CORE COMPONENTS
