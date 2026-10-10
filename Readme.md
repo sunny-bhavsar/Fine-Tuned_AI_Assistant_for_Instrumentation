@@ -48,6 +48,6 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
 
 1. **Clone & Install Dependencies:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/AI-Assistant-Instrumentation-LLM.git](https://github.com/YOUR_USERNAME/AI-Assistant-Instrumentation-LLM.git)
+   git clone [git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git](git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git)
    cd AI-Assistant-Instrumentation-LLM
    pip install -r requirements.txt
