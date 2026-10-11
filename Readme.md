@@ -17,7 +17,6 @@
 This repository hosts an advanced **Digital Twin and AI Supervisory Control System** designed to bridge high-level generative intelligence with low-level deterministic Programmable Logic Controllers (PLCs)[cite: 66]. The system features a locally hosted, fine-tuned Qwen3-4B model acting as an active "AI Operator" that oversees continuous physical processes while a custom algorithmic layer handles real-time control physics[cite: 66].
 
 ### System Architecture Diagram
-> *Place your architecture diagram image inside the `assets/` folder as `architecture_diagram.png`.*
 
 <p align="center">
   <img src="assets/architecture_diagram.png" width="850" alt="System Architecture Diagram">
@@ -66,22 +65,12 @@ This repository hosts an advanced **Digital Twin and AI Supervisory Control Syst
 
 ```text
 ├── assets/
-│   └── architecture_diagram.png # System architecture diagram
-├── codesys/                     # CODESYS V3.5 project files & Structured Text scripts
-├── src/
-│   ├── dashboard_app.py         # Main Streamlit HMI and dynamic context engine
-│   ├── pid_controller.py        # Custom deadband-compensated control algorithm
-│   └── opcua_bridge.py          # Asynchronous OPC UA client communication handler
-├── requirements.txt             # Python package dependencies
-├── LICENSE                      # MIT Open-Source License
-└── README.md                    # System documentation
-
-
-### Step-by-Step Launch Sequence
-
-1. **Clone & Install Dependencies:**
-   ```bash
-   git clone [git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git](git clone https://github.com/sunny-bhavsar/Fine-Tuned_AI_Assistant_for_Instrumentation.git)
-   cd AI-Assistant-Instrumentation-LLM
-   pip install -r requirements.txt
-
+│   └── architecture_diagram.png    # System architecture diagram
+├── .gitignore                      # Git exclusion rules
+├── Finetuning_Main.ipynb          # Model training & fine-tuning notebook
+├── Finetuning_data.json            # Domain-specific training dataset
+├── PLC_PRG_Version2.projectarchive # CODESYS V3.5 SoftPLC project archive
+├── System Architecture Diagram.jpg # Raw system diagram asset
+├── dashboard_app.py                # Main Streamlit HMI & orchestrator application
+├── requirements.txt                # Python package dependencies
+└── Readme.md                       # Repository documentation
